@@ -37,7 +37,7 @@ import static com.alibaba.boot.dubbo.util.DubboUtils.*;
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
  * @see ConfigUtils
- * @since 1.0.0
+ * @since 1.0.0  www
  */
 @Order // LOWEST_PRECEDENCE Make sure last execution
 public class OverrideDubboConfigApplicationListener implements ApplicationListener<ApplicationEnvironmentPreparedEvent> {

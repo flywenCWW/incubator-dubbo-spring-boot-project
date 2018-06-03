@@ -30,13 +30,13 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * Awaiting Non-Web Spring Boot {@link ApplicationListener}
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
- * @since 0.1.1
+ * @since 0.1.1   测试同步
  */
 public class AwaitingNonWebApplicationListener implements ApplicationListener<ApplicationReadyEvent> {
 
     private static final Logger logger = LoggerFactory.getLogger(AwaitingNonWebApplicationListener.class);
 
-    private static final ExecutorService executorService = Executors.newSingleThreadExecutor();
+    private static final ExecutorService executoService = Executors.newSingleThreadExecutor();
 
     private static final AtomicBoolean shutdownHookRegistered = new AtomicBoolean(false);
 
