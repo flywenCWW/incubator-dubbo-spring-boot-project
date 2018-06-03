@@ -52,7 +52,7 @@ import static org.springframework.beans.factory.config.ConfigurableBeanFactory.S
  * @see DubboComponentScan
  * @see EnableDubboConfig
  * @see EnableDubbo
- * @since 1.0.0  提交测试
+ * @since 1.0.0  提交测试    第二次
  */
 @Configuration
 @ConditionalOnProperty(prefix = DUBBO_PREFIX, name = "enabled", matchIfMissing = true, havingValue = "true")
