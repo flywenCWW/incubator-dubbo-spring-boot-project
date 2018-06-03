@@ -30,7 +30,7 @@ import static com.alibaba.dubbo.config.spring.util.PropertySourcesUtils.getSubPr
  * Spring Boot Relaxed {@link DubboConfigBinder} implementation
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
- * @since 0.1.1
+ * @since 0.1.1   选择一个提交合并
  */
 public class RelaxedDubboConfigBinder extends AbstractDubboConfigBinder {
 
